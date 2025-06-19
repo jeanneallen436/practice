@@ -1,0 +1,5 @@
+[*.cs]
+dotnet_diagnostic.CA2000.severity = warning
+dotnet_diagnostic.CA1822.severity = error
+indent_style = space
+indent_size = 4

@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticKeywordDemo", "StaticKeywordDemo.csproj", "{B1E758D6-5A8E-8D10-C09C-A0695055AD95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1E758D6-5A8E-8D10-C09C-A0695055AD95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1E758D6-5A8E-8D10-C09C-A0695055AD95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1E758D6-5A8E-8D10-C09C-A0695055AD95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1E758D6-5A8E-8D10-C09C-A0695055AD95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6B91192-0D14-4AA0-8C15-A31882E961A9}
+	EndGlobalSection
+EndGlobal

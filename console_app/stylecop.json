@@ -1,0 +1,26 @@
+{
+  "settings": {
+    "documentationRules": {
+      "companyName": "ITT",
+      "copyrightText": "Copyright © 2025 ITT. All rights reserved.",
+      "documentExposedElements": true,
+      "documentInternalElements": false,
+      "documentPrivateElements": false,
+      "documentInterfaces": true,
+      "documentEnums": true,
+      "documentDelegates": true,
+      "documentUnorderedParameters": false
+    },
+    "indentationRules": {
+      "useTabs": false,
+      "indentationSize": 4
+    },
+    "orderingRules": {
+      "usingDirectivesPlacement": "outsideNamespace",
+      "systemUsingDirectivesFirst": true
+    },
+    "namingRules": {
+      "allowCommonHungarianPrefixes": false
+    }
+  }
+}
