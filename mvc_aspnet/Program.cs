@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using MVCAspnet.Controllers;
 using MVCAspnet.Repos;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,6 +10,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+builder.Services.AddTransient<AppDbContext>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -30,6 +32,5 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}")
     .WithStaticAssets();
-
 
 app.Run();

@@ -7,9 +7,9 @@ namespace MVCAspnet.Models
 {
     public class Character
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public string Picture { get; set; }
+        public int Id { get; set; } = 1;
+        public string Name { get; set; } = "Bob";
+        public string Picture { get; set; } = "";
         // public Show Show { get; set; }
     }
 }
